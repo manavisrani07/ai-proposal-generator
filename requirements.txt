@@ -1,0 +1,12 @@
+transformers
+langchain
+sentence_transformers
+accelerate
+bitsandbytes
+git+https://github.com/huggingface/peft.git
+faiss-cpu
+openai
+requests
+bs4
+groq
+pydantic
