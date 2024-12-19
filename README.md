@@ -48,6 +48,6 @@ The AI Proposal Generator automates the process of creating detailed business pr
 
 - **Step-by-Step Execution**: The notebook guides you through each stage of the process.
 - **Comprehensive Report**: A detailed markdown file with actionable AI/ML insights and recommendations.
-- **Visualization**: A low-level design diagram to understand the flow and structure of the system.
+- **Resource Links**: A detailed file consisiting of the resources used.
 
 Feel free to explore, modify, and enhance the system to fit your specific use case!
