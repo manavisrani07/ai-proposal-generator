@@ -1,13 +1,13 @@
 class ResourceAssetCollectionAgent:
     def __init__(self, max_links=10):
-        self.max_links = max_links  # Maximum number of links to collect
+        self.max_links = max_links  
 
     def search_datasets(self, keywords):
         """
         Search for datasets on Kaggle, Hugging Face, and GitHub, filtering duplicates
         and limiting the number of results.
         """
-        resource_links = set()  # Use a set to avoid duplicates
+        resource_links = set()  # Using set to avoid duplicates
         platforms = ["kaggle.com", "huggingface.co", "github.com"]
 
         for keyword in keywords:
@@ -22,7 +22,7 @@ class ResourceAssetCollectionAgent:
         """
         Optional: Implement filtering logic for irrelevant links (if needed).
         """
-        # Example filter: Remove links containing specific unwanted keywords
+        # Removing links containing specific unwanted keywords
         unwanted_keywords = ["test", "example"]
         filtered_links = [
             link for link in links if not any(kw in link for kw in unwanted_keywords)
