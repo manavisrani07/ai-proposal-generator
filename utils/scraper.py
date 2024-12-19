@@ -11,7 +11,7 @@ def fetch_company_info(company_name):
         info = ''
         for span in soup.find_all('span'):
             info += span.text + ' '
-        # Limit the info to a reasonable length
+        # Limiting info to a reasonable length
         info = info[:1000]
         return info.strip()
     except Exception as e:
@@ -28,7 +28,7 @@ def fetch_industry_info(industry):
         info = ''
         for span in soup.find_all('span'):
             info += span.text + ' '
-        # Limit the info to a reasonable length
+        # Limiting info to a reasonable length.
         info = info[:1000]
         return info.strip()
     except Exception as e:
