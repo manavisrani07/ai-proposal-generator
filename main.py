@@ -12,7 +12,7 @@ def main():
     industry = input("Enter the industry: ").strip()
 
     # Paste your Groq API key here
-    API_KEY = "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"  
+    API_KEY = ""  
 
     # Choose the model you want to use
     model_name = "llama3-8b-8192"
