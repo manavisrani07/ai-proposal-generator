@@ -6,7 +6,7 @@ class FinalProposalAgent:
         """
         Compile a structured markdown report with improved formatting and a Table of Contents.
         """
-        # Start the report with a title and table of contents
+        # report initials with a title and table of contents
         report = (
             "# Final Proposal\n\n"
             "## Table of Contents\n"
@@ -15,21 +15,21 @@ class FinalProposalAgent:
             "3. [Resource Links](#resource-links)\n\n"
         )
 
-        # Add use cases section
+        # Adding use cases section
         report += "## Top Use Cases\n\n"
         if use_cases.strip():
             report += use_cases.strip() + "\n\n"
         else:
             report += "No use cases were generated.\n\n"
 
-        # Add GenAI solutions section
+        # Adding genai solutions section
         report += "## GenAI Solutions\n\n"
         if genai_solutions.strip():
             report += genai_solutions.strip() + "\n\n"
         else:
             report += "No GenAI solutions were proposed.\n\n"
 
-        # Add resource links section
+        # adding resource links section
         report += "## Resource Links\n\n"
         if resource_links:
             for link in resource_links:
