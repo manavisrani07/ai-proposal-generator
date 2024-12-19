@@ -42,7 +42,7 @@ The AI Proposal Generator automates the process of creating detailed business pr
 
 ## System Architecture
 
-![Low-Level Design Diagram](path/to/your/diagram.png)
+![Low-Level Design Diagram](architecture/balanced_low_level_design.png)
 
 ## What to Expect
 
