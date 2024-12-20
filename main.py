@@ -56,9 +56,16 @@ def main():
     This application generates an AI-based proposal for a given company and industry.
     
     **Instructions**:
-    - Enter your Groq API key (you can store it in Streamlit secrets or input directly).
     - Enter the company name and industry.
     - Click the 'Run' button.
+
+    **This AI Proposal Generator automates the process of creating detailed business proposals by**:
+
+    - Collecting company and industry information.
+    - Generating relevant use cases based on trends and requirements.
+    - Proposing AI/ML solutions tailored to the company’s needs.
+    - Collecting relevant datasets and resources.
+    - Compiling all the information into a structured final report.
     """)
 
     # If you prefer storing the API key in Streamlit secrets, you can retrieve it:
